@@ -1,0 +1,44 @@
+body{
+  background-color: hsl(218, 28%, 13%);
+  align-items: center;
+}
+.navbar-brand{
+  height:40px;
+}
+.navlink-color{
+  color: white;
+}
+
+/*top section*/
+.btn-top{
+  background: linear-gradient( 90deg,hsl(176, 68%, 64%),hsl(198, 60%, 50%) ) ;
+  border-radius: 25px;
+  color:  hsl(0, 0%, 100%);
+}
+.text-color{
+  color: hsl(0, 0%, 100%);
+}
+ .container{
+align-items: center;
+  text-align: center;
+}
+.title-weight{
+  font-weight: 700;
+}
+/*features section*/
+.container{
+  margin: 40px auto 80px auto;
+}
+/*middle section*/
+
+.link-middle {
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: hsl(170, 45%, 43%);
+}
+
+/*cta section*/
+/*bottom section*/

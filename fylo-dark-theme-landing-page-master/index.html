@@ -3,7 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
@@ -15,7 +21,110 @@
   </style>
 </head>
 <body>
+  <section id="navbar">
+    <div class="container-fluid">
+      <nav class="navbar bg navbar-expand-lg navbar-dark navbar-toggleable-xl ">
+        <div class="container">
 
+
+  <img class="navbar-brand"src="images/logo.svg" alt="logo">
+
+
+
+
+    <ul class="navbar-nav ">
+      <li class="nav-item">
+        <a class="nav-link navlink-color"href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navlink-color"href="#">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navlink-color"href="#">Sign In</a>
+      </li>
+
+
+    </ul>
+</div>
+
+</nav>
+</div>
+    </div>
+  </section>
+  <section id="top">
+    <div class="container">
+      <img src="images/illustration-intro.png" alt="">
+      <h1 class="text-color title-weight">
+  All your files in one secure location, accessible anywhere.</h1>
+  <h3 class="text-color">  Fylo stores all your most important files in one secure location. Access them wherever
+  you need, share and collaborate with friends family, and co-workers.</h3>
+  <button class="btn-top btn btn-lg "type="button" name="button"> Get Started</button>
+    </div>
+
+  </section>
+  <section id="features">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+    <img src="images/icon-access-anywhere.svg" alt="">
+    <h3 class="text-color title-weight">Access your files, anywhere</h3>
+    <h5 class="text-color title-weight">  The ability to use a smartphone, tablet, or computer to access your account means your
+  files follow you everywhere.</h5>
+    </div>
+    <div class="col-md-6">
+      <img src="images/icon-security.svg" alt="">
+      <h3 class="text-color title-weight">
+  Security you can trust</h3>
+      <h5 class="text-color ">
+  2-factor authentication and user-controlled encryption are just a couple of the security
+  features we allow to help secure your files./h5>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+    <img src="images/icon-collaboration.svg" alt="">
+    <h3 class="text-color title-weight">Real-time collaboration</h3>
+    <h5 class="text-color ">  Securely share files and folders with friends, family and colleagues for live collaboration.
+  No email attachments required.</h5>
+    </div>
+    <div class="col-md-6">
+      <img src="images/icon-any-file.svg" alt="">
+      <h3 class="text-color title-weight" > Store any type of file</h3>
+      <h5 class="text-color ">  Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+  storage needs.</h5>
+    </div>
+  </div>
+</div>
+  </section>
+  <section id="middle">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/illustration-stay-productive.png" alt="">
+    </div>
+    <div class="col-md-6">
+      <h2 class="text-color title-weight"> Stay productive, wherever you are</h2>
+      <h3 class="text-color ">  Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+  storage needs.
+  
+  Securely share files and folders with friends, family and colleagues for live collaboration. No email
+  attachments required.</h3>
+
+  <a class="link-middle" href="#">See how Fylo works <img class="link-middle-icon"src="images/icon-arrow.svg"></a>
+
+    </div>
+  </div>
+</div>
+  </section>
+  <section id="opinions">
+
+  </section>
+  <section id="cta">
+
+  </section>
+  <section id="bottom">
+
+  </section>
 
   <footer>
     <p class="attribution">

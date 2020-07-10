@@ -176,6 +176,12 @@ h1 {
     padding: 3% 0 5% 0;
 }
 
+@media screen and (max-width:500px) {
+    .middle-col {
+        padding: 3% 7% 5% 5%;
+    }
+}
+
 .middle-col h3 {
     line-height: 2.5rem;
     font-size: 25px;
@@ -231,6 +237,12 @@ h1 {
     padding: 5%;
 }
 
+@media screen and (max-width:500px) {
+    .testimonial-card {
+        margin-bottom: 10%;
+    }
+}
+
 .testimonial-im {
     width: 60px;
     border-radius: 30px;
@@ -259,6 +271,14 @@ h1 {
     top: 120px;
 }
 
+@media screen and (max-width:500px) {
+    .cta-cont {
+        position: relative;
+        top: 60%;
+        padding: 3%;
+    }
+}
+
 .cta-text-padd {
     padding: 3% 0;
 }
@@ -271,11 +291,23 @@ h1 {
     color: hsl(0, 0%, 100%);
 }
 
+@media screen and (max-width:500px) {
+    .form {
+        margin: 7% auto;
+    }
+}
+
 
 /*bottom section*/
 
 #bottom {
     padding-top: 50px;
+}
+
+@media screen and (max-width:500px) {
+    #bottom {
+        padding-top: 10%;
+    }
 }
 
 #bottom,
@@ -288,6 +320,7 @@ h1 {
 }
 
 .bottom-cont {
+    text-align: center;
     padding: 5%;
     margin: auto 2%;
 }

@@ -74,9 +74,20 @@ align-items: center;
   padding: 5% 10%;
 }
 /*bottom section*/
-#bottom{
+#bottom, #footer{
   background-color: hsl(216, 53%, 9%);
 }
 .fas-footer{
   color: white;
+}
+.bottom-cont{
+  padding: 5%;
+  margin: auto 2%;
+}
+.text-size{
+  font-size: 14px;
+}
+.footer-col{
+
+  padding: 2%;
 }

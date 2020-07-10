@@ -11,6 +11,7 @@ body{
 
 /*top section*/
 .btn-top{
+  padding: 1% 5%;
   background: linear-gradient( 90deg,hsl(176, 68%, 64%),hsl(198, 60%, 50%) ) ;
   border-radius: 25px;
   color:  hsl(0, 0%, 100%);
@@ -40,5 +41,42 @@ align-items: center;
   color: hsl(170, 45%, 43%);
 }
 
+.productive-im{
+  margin-left: -60px;
+}
+.testimonial-card{
+
+  background-color: hsl(219, 30%, 18%);
+
+}
+.testimonial-cont{
+  padding: 5%;
+
+}
+.testimonial-im{
+  width: 60px;
+  border-radius: 30px;
+}
+
 /*cta section*/
+.form-rounded{
+  border-radius: 2rem;
+  align-items: stretch;
+}
+.cta-card{
+  background-color: hsl(217, 28%, 15%);
+  padding: 5%;
+}
+#cta{
+  margin: auto 15%;
+}
+.cta-cont{
+  padding: 5% 10%;
+}
 /*bottom section*/
+#bottom{
+  background-color: hsl(216, 53%, 9%);
+}
+.fas-footer{
+  color: white;
+}

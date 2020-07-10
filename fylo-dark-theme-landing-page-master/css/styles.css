@@ -2,6 +2,16 @@ body{
   background-color: hsl(218, 28%, 13%);
   align-items: center;
 }
+.title-font{
+  font-family: 'Raleway', sans-serif;
+}
+.text-font{
+  font-family: 'Open Sans', sans-serif;
+}
+.title-size{
+  font-size: 40px;
+}
+
 .navbar-brand{
   height:40px;
 }
@@ -10,6 +20,17 @@ body{
 }
 
 /*top section*/
+.text-line{
+  line-height: 3rem;
+}
+h1{
+  padding: 5%;
+}
+#top .container h3{
+  font-size: 25px;
+  line-height: 2.5rem;
+  padding: 0 15% 3% 15%;
+}
 .btn-top{
   padding: 1% 5%;
   background: linear-gradient( 90deg,hsl(176, 68%, 64%),hsl(198, 60%, 50%) ) ;
@@ -28,10 +49,30 @@ align-items: center;
 }
 /*features section*/
 .container{
-  margin: 40px auto 80px auto;
+  margin: 20px auto 80px auto;
+}
+.icon-feature{
+margin: 10px auto 30px auto;
+}
+
+.feature-col{
+  padding: 3%;
+
 }
 /*middle section*/
-
+.middle-col{
+  padding: 3% 0 5% 0;
+}
+.middle-col h3{
+  line-height: 2.5rem;
+  font-size: 25px;
+}
+.middle-text{
+  text-align: left;
+  line-height: 1.5rem;
+  padding: 5% 0;
+  margin-right: 40px;
+}
 .link-middle {
   font-family: "Open Sans";
   font-weight: 400;
@@ -40,9 +81,11 @@ align-items: center;
   text-decoration: underline;
   color: hsl(170, 45%, 43%);
 }
-
+ .middle-title{
+   margin-right: 50%;
+ }
 .productive-im{
-  margin-left: -60px;
+  margin-left: 60px;
 }
 .testimonial-card{
 
@@ -57,6 +100,7 @@ align-items: center;
   width: 60px;
   border-radius: 30px;
 }
+
 
 /*cta section*/
 .form-rounded{

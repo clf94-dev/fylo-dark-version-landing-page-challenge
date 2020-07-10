@@ -87,6 +87,13 @@ margin: 10px auto 30px auto;
 .productive-im{
   margin-left: 60px;
 }
+/* testimonials  */
+.text-padd{
+  padding-bottom: 20px;
+}
+.testimonial-name{
+  font-size: 15px;
+}
 .testimonial-card{
 
   background-color: hsl(219, 30%, 18%);
@@ -115,9 +122,24 @@ margin: 10px auto 30px auto;
   margin: auto 15%;
 }
 .cta-cont{
-  padding: 5% 10%;
+  padding: 3% 10%;
+  position: relative;
+  top: 120px;
+}
+.cta-text-padd{
+  padding: 3% 0;
+}
+.btn-cta{
+  padding: 4% 8%;
+  height: 50px;
+  background: linear-gradient( 90deg,hsl(176, 68%, 64%),hsl(198, 60%, 50%) ) ;
+  border-radius: 25px;
+  color:  hsl(0, 0%, 100%);
 }
 /*bottom section*/
+#bottom{
+  padding-top: 50px;
+}
 #bottom, #footer{
   background-color: hsl(216, 53%, 9%);
 }
